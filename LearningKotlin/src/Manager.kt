@@ -75,11 +75,7 @@ class Manager {
             }
         }
     }
-
-//    var person = Student()
-//    person.input()
-//    listOfStrings.add(person)
-
+    /////////////7. Sắp xếp danh sách giáo viên theo tên Thay fix giup em a @@
     private fun sortListTeacher() {
         if (listPerson.isEmpty()) {
             println("Danh sách rỗng!")
@@ -88,7 +84,7 @@ class Manager {
             print(listPerson.size)
         }
     }
-
+/////////////6. Sắp xếp điểm trung bình học sinh theo thứ tự tăng dần Thay fix giup em a @@
     private fun sortAvgStudent() {
 
         if (listPerson.isEmpty()) {
